@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #333; /* Background color for the header */
+    color: #fff;
+    text-align:center;
+    padding: 20px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661914310117-9875b2229719?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    font-size: 18px;
+    
+}
+
+/* Style for the conclusion section */
+.seven {
+    background-color: #333; /* Background color for the conclusion */
+    color:#333;
+    text-align: center;
+    padding: 40px;
+}
+
+.seven p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Add more specific styles as needed */
+
+h1 {
+    margin: 0;
+}
+
+/* Style each chapter */
+.h {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Add more specific styles as needed */
+
+.one{
+    background-color: antiquewhite;
+    border: solid aliceblue;
+    font-size: larger;
+    box-shadow: 10px 10px 10px bisque;
+    
+}
+.one p{
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+
