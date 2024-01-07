@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Chapters */
+.one, .two, .three, .four, .five, .six, .seven {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Small text */
+small {
+    display: block;
+    margin-top: 5px;
+    color: #777;
+}
+
+/* Conclusion paragraph */
+.seven {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .one, .two, .three, .four, .five, .six, .seven {
+        margin: 10px;
+    }
+}
